@@ -1,0 +1,13 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 45%;
+    flex-shrink: 1;
+}
+@media (max-width: 768px) {
+    .form {
+      flex-basis: 100%; /* make each field full-width on smaller screens */
+    }
+  }
+  
